@@ -1,0 +1,89 @@
+---
+title: "Product Development"
+author: "Luiz Bergo"
+date: "14/02/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Airport weather conditions
+
+This web page gather information about south east main brazilian airports from CPTEC/INPE and displays the air humidity:
+
+Data about airport climates are obtained at the site:
+
+http://servicos.cptec.inpe.br
+
+Airport information such as location, IATA code and others can be obtained at:
+
+http://bancodedados.cptec.inpe.br/tabelaestacoes/faces/estacaoporicao.jsp
+
+
+
+
+```{r , echo=FALSE}
+
+library(leaflet)
+library(taRifx)
+library(XML)
+library(dplyr)
+library(htmlwidgets)
+library(htmltools)
+
+airportAbbr <- c("SBVT" , "SBCF" , "SBGL" , "SBGR")
+airportName <- c("Eurico Aguiar Salles (VIX)" , "Tancredo Neves (CNF)" , "Galeão (GIG)" , "Guarulhos (GRU)")
+airportState <- c("ES" , "MG" , "RJ" , "SP")
+airportLat <- c(-20.25, -19.62, -22.8, - 23.44)
+airpotLong <- c(-40.28, -43.97, -43.25, -46.47)
+airportAlt <- c(4, 828, 6, 750)
+
+airportWeather <- data.frame()
+airportData <- data.frame()
+
+for (abbr in airportAbbr ){
+  url <-  paste0 ('http://servicos.cptec.inpe.br/XML/estacao/', abbr,'/condicoesAtuais.xml' )
+  df <- xmlParse(url)
+  umidade <- as.numeric(xpathApply(df,'//umidade', xmlValue))
+  pressao <- as.numeric(xpathApply(df,'//pressao', xmlValue))
+  temperatura <- as.numeric(xpathApply(df,'//temperatura', xmlValue))
+  vento <- as.numeric(xpathApply(df,'//vento_dir', xmlValue))
+  airCond <- c(umidade, pressao, temperatura, vento)
+  airportWeather <- rbind(airportWeather, airCond)
+}
+
+airportData <-  cbind(airportAbbr,airportName, airportState, airportLat, airpotLong, airportAlt, airportWeather)
+
+names(airportData) <- c("abbr", "name", "state","lat" ,"lng", "alt",
+                           "umid","pressure","temp","wind")
+
+
+tag.map.title <- tags$style(HTML("
+  .leaflet-control.map-title { 
+    transform: translate(-50%,20%);
+    position: fixed !important;
+    left: 50%;
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(122,122,255,0.75);
+    font-weight: bold;
+    font-size: 16px;
+  }
+"))
+
+title <- tags$div(
+  tag.map.title, HTML(paste("Information gather at:",Sys.Date()))
+)  
+
+  
+
+airportData %>% leaflet() %>% addTiles() %>% addCircles(weight = 1, radius = airportData$umid*1000, popup = airportData$name) %>% 
+  fitBounds(-47,-25, -40,-18) %>%
+  addControl(title, position = "topleft", className="map-title")
+
+
+
+```

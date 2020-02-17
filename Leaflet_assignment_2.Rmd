@@ -1,0 +1,37 @@
+---
+title: "Product Development"
+author: "Luiz Bergo"
+date: "14/02/2020"
+output: ioslides_presentation
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+```{r , echo=FALSE}
+
+library(leaflet)
+library(taRifx)
+library(dplyr)
+
+
+airportAbbr <- c("SBVT" , "SBCF" , "SBGL" , "SBGR")
+airportName <- c("Eurico Aguiar Salles (VIX)" , "Tancredo Neves (CNF)" , "Galeão (GIG)" , "Guarulhos (GRU)")
+airportState <- c("ES" , "MG" , "RJ" , "SP")
+lat <- c(-20.25, -19.62, -22.8, - 23.44)
+lng <- c(-40.28, -43.97, -43.25, -46.47)
+airportAlt <- c(4, 828, 6, 750)
+rain_perc <- c(20,50,75,100)
+
+airportData <- cbind.data.frame(airportName, lat, lng, rain_perc) %>%
+  remove.factors()
+
+airportData %>% leaflet() %>% addTiles() %>% addCircles(weight = 1, radius = rain_perc*1000, popup = airportName) #%>% 
+  # fitBounds(-47,-25, -40,-18) %>%
+  # addControl("17-02-2020", position = "bottomright")
+
+```
