@@ -1,0 +1,457 @@
+state;year;burn;precipitation;region
+Acre;1998;730;2296,1;North East
+Acre;1999;333;2182,2;North East
+Acre;2000;434;1703,5;North East
+Acre;2001;828;1926,9;North East
+Acre;2002;3491;1909,9;North East
+Acre;2003;6859;1797,1;North East
+Acre;2004;3160;2090,4;North East
+Acre;2005;9427;1751,7;North East
+Acre;2006;1219;2054,6;North East
+Acre;2007;1211;1766,2;North East
+Acre;2008;2808;1841,4;North East
+Acre;2009;2095;2253,1;North East
+Acre;2010;4684;1766,4;North East
+Acre;2011;1912;1619,4;North East
+Acre;2012;3180;2689,4;North East
+Acre;2013;3242;2046,3;North East
+Acre;2014;2729;2400,3;North East
+Acre;2015;5512;2012,4;North East
+Acre;2016;6993;1681,7;North East
+Acre;2017;7042;1890,3;North East
+Alagoas;1998;86;1089,8;North East
+Alagoas;1999;172;1257,5;North East
+Alagoas;2000;123;2557,4;North East
+Alagoas;2001;86;1604,7;North East
+Alagoas;2002;258;2012,3;North East
+Alagoas;2003;299;1473,4;North East
+Alagoas;2004;159;2287,8;North East
+Alagoas;2005;217;1533,8;North East
+Alagoas;2006;161;1888,7;North East
+Alagoas;2007;128;0;North East
+Alagoas;2008;277;104;North East
+Alagoas;2009;325;2674,3;North East
+Alagoas;2010;222;2292,5;North East
+Alagoas;2011;232;2372,7;North East
+Alagoas;2012;352;1348,6;North East
+Alagoas;2013;208;1797,4;North East
+Alagoas;2014;190;1837,7;North East
+Alagoas;2015;590;1433,2;North East
+Alagoas;2016;400;1361,1;North East
+Alagoas;2017;159;2976,1;North East
+Amapa;1998;278;2275;North East
+Amapa;1999;101;2707,3;North East
+Amapa;2000;253;2701,8;North East
+Amapa;2001;1301;2113,8;North East
+Amapa;2002;1957;2488,1;North East
+Amapa;2003;1652;1921,3;North East
+Amapa;2004;2261;2701,3;North East
+Amapa;2005;1271;2591,5;North East
+Amapa;2006;817;2820;North East
+Amapa;2007;440;2695,3;North East
+Amapa;2008;785;2353,3;North East
+Amapa;2009;2127;2508;North East
+Amapa;2010;721;2415,6;North East
+Amapa;2011;1100;2557,7;North East
+Amapa;2012;2103;2153,3;North East
+Amapa;2013;975;2852,6;North East
+Amapa;2014;1490;2528,7;North East
+Amapa;2015;1353;2421,8;North East
+Amapa;2016;2653;2490;North East
+Amapa;2017;1465;2139,4;North East
+Amazonas;1998;946;2200,4;North
+Amazonas;1999;1061;2620,3;North
+Amazonas;2000;853;2599,6;North
+Amazonas;2001;1297;1798,4;North
+Amazonas;2002;2852;2322,1;North
+Amazonas;2003;4789;1954,9;North
+Amazonas;2004;3504;2056,9;North
+Amazonas;2005;6780;2208,1;North
+Amazonas;2006;4634;2304,7;North
+Amazonas;2007;2827;2406,2;North
+Amazonas;2008;2717;3157,1;North
+Amazonas;2009;7915;1958,5;North
+Amazonas;2010;8826;2171,9;North
+Amazonas;2011;4188;2780;North
+Amazonas;2012;7745;2312;North
+Amazonas;2013;5118;2723;North
+Amazonas;2014;9288;2564;North
+Amazonas;2015;15170;1735,7;North
+Amazonas;2016;12023;2295;North
+Amazonas;2017;14798;2136,2;North
+Bahia;1998;5907;1789;North East
+Bahia;1999;3777;2677,9;North East
+Bahia;2000;3658;1908,2;North East
+Bahia;2001;8073;1777,3;North East
+Bahia;2002;15946;1824,3;North East
+Bahia;2003;17212;2014,2;North East
+Bahia;2004;9799;2019,7;North East
+Bahia;2005;16410;2329;North East
+Bahia;2006;7589;2318,9;North East
+Bahia;2007;20471;1319,8;North East
+Bahia;2008;17600;1346,2;North East
+Bahia;2009;4731;1914,1;North East
+Bahia;2010;15512;1920,7;North East
+Bahia;2011;13061;2169,4;North East
+Bahia;2012;17378;1262,2;North East
+Bahia;2013;7217;1968,1;North East
+Bahia;2014;7819;1546,4;North East
+Bahia;2015;18397;1892,4;North East
+Bahia;2016;6751;1282,8;North East
+Bahia;2017;8249;1455,2;North East
+Ceara;1998;2625;976,5;North East
+Ceara;1999;1688;1324,4;North East
+Ceara;2000;2211;1937,7;North East
+Ceara;2001;6344;824,8;North East
+Ceara;2002;6556;1819,9;North East
+Ceara;2003;8312;2068,3;North East
+Ceara;2004;4751;1928,3;North East
+Ceara;2005;4536;1138,2;North East
+Ceara;2006;3280;1705,9;North East
+Ceara;2007;4329;1455;North East
+Ceara;2008;4617;1602,3;North East
+Ceara;2009;4567;2359,5;North East
+Ceara;2010;3738;1109,3;North East
+Ceara;2011;3773;2260,9;North East
+Ceara;2012;4040;1033,3;North East
+Ceara;2013;2898;887,9;North East
+Ceara;2014;2512;1238,1;North East
+Ceara;2015;3420;1263,3;North East
+Ceara;2016;3114;1423;North East
+Ceara;2017;2555;1450;North East
+Distrito Federal;1998;103;1375,2;Center West
+Distrito Federal;1999;46;1236,7;Center West
+Distrito Federal;2000;48;1377,3;Center West
+Distrito Federal;2001;64;1285,5;Center West
+Distrito Federal;2002;149;1389,5;Center West
+Distrito Federal;2003;96;1287,2;Center West
+Distrito Federal;2004;279;1619;Center West
+Distrito Federal;2005;92;1760,1;Center West
+Distrito Federal;2006;76;1747,4;Center West
+Distrito Federal;2007;274;1167;Center West
+Distrito Federal;2008;115;1589,1;Center West
+Distrito Federal;2009;92;1792,9;Center West
+Distrito Federal;2010;505;1431,6;Center West
+Distrito Federal;2011;273;1558,8;Center West
+Distrito Federal;2012;173;1479,2;Center West
+Distrito Federal;2013;101;1801,3;Center West
+Distrito Federal;2014;251;1680,4;Center West
+Distrito Federal;2015;172;1252,7;Center West
+Distrito Federal;2016;242;1192,9;Center West
+Distrito Federal;2017;410;1037,3;Center West
+Espirito Santo;1998;218;865,2;South East
+Espirito Santo;1999;240;1401,9;South East
+Espirito Santo;2000;175;1562,2;South East
+Espirito Santo;2001;130;362,3;South East
+Espirito Santo;2002;297;705,4;South East
+Espirito Santo;2003;708;989,1;South East
+Espirito Santo;2004;174;1649,9;South East
+Espirito Santo;2005;121;1790,5;South East
+Espirito Santo;2006;215;1384,6;South East
+Espirito Santo;2007;382;878;South East
+Espirito Santo;2008;251;1524,3;South East
+Espirito Santo;2009;216;1570,7;South East
+Espirito Santo;2010;225;1224,1;South East
+Espirito Santo;2011;326;1591,2;South East
+Espirito Santo;2012;352;1599,1;South East
+Espirito Santo;2013;250;2194,6;South East
+Espirito Santo;2014;347;990,6;South East
+Espirito Santo;2015;1031;728;South East
+Espirito Santo;2016;654;948,5;South East
+Espirito Santo;2017;234;1053,7;South East
+Goias;1998;6863;1574,4;Center West
+Goias;1999;5003;1347,5;Center West
+Goias;2000;3808;1833,5;Center West
+Goias;2001;3927;1766,9;Center West
+Goias;2002;4408;1536,4;Center West
+Goias;2003;4921;1541;Center West
+Goias;2004;7531;1555,9;Center West
+Goias;2005;4764;1906,9;Center West
+Goias;2006;2756;1705,1;Center West
+Goias;2007;8203;1095,2;Center West
+Goias;2008;3543;1809,3;Center West
+Goias;2009;2682;1767,9;Center West
+Goias;2010;11104;1555,9;Center West
+Goias;2011;5677;1812,6;Center West
+Goias;2012;6154;1894,1;Center West
+Goias;2013;2979;1782,1;Center West
+Goias;2014;6454;1662;Center West
+Goias;2015;6861;1503,4;Center West
+Goias;2016;5275;1362;Center West
+Goias;2017;8705;1149,9;Center West
+Maranhao;1998;14236;1459,8;North East
+Maranhao;1999;8711;2366,2;North East
+Maranhao;2000;8983;2765,2;North East
+Maranhao;2001;18839;2479,6;North East
+Maranhao;2002;15789;1888,4;North East
+Maranhao;2003;23382;2370,5;North East
+Maranhao;2004;22361;2496,8;North East
+Maranhao;2005;22085;1803,3;North East
+Maranhao;2006;11283;2354,2;North East
+Maranhao;2007;27093;1899;North East
+Maranhao;2008;11363;2599,8;North East
+Maranhao;2009;9381;2847,8;North East
+Maranhao;2010;28896;1755,6;North East
+Maranhao;2011;14955;2713,3;North East
+Maranhao;2012;24589;1133,2;North East
+Maranhao;2013;12309;1594,2;North East
+Maranhao;2014;23035;1833,9;North East
+Maranhao;2015;25787;1507,2;North East
+Maranhao;2016;21766;1543,3;North East
+Maranhao;2017;28616;2198,8;North East
+Mato Grosso;1998;36756;1611,8;Center West
+Mato Grosso;1999;57324;1611,8;Center West
+Mato Grosso;2000;29138;1249;Center West
+Mato Grosso;2001;30637;1225,8;Center West
+Mato Grosso;2002;66634;1172,5;Center West
+Mato Grosso;2003;37957;1371,7;Center West
+Mato Grosso;2004;83908;1177;Center West
+Mato Grosso;2005;47606;966,5;Center West
+Mato Grosso;2006;30645;1517,7;Center West
+Mato Grosso;2007;51485;1604;Center West
+Mato Grosso;2008;21663;604,9;Center West
+Mato Grosso;2009;16645;954,2;Center West
+Mato Grosso;2010;52651;1596,5;Center West
+Mato Grosso;2011;17570;1673;Center West
+Mato Grosso;2012;33563;1620,1;Center West
+Mato Grosso;2013;19703;1524,4;Center West
+Mato Grosso;2014;30463;1676,5;Center West
+Mato Grosso;2015;29896;1382,4;Center West
+Mato Grosso;2016;23539;1625,9;Center West
+Mato Grosso;2017;42303;1314,2;Center West
+Minas Gerais;1998;4304;1511,5;South East
+Minas Gerais;1999;5041;1342,7;South East
+Minas Gerais;2000;3444;1576,4;South East
+Minas Gerais;2001;3734;1459,2;South East
+Minas Gerais;2002;8769;1488,5;South East
+Minas Gerais;2003;16247;1723,5;South East
+Minas Gerais;2004;10849;1936,8;South East
+Minas Gerais;2005;11259;1618,1;South East
+Minas Gerais;2006;2461;1567,9;South East
+Minas Gerais;2007;14036;1163,2;South East
+Minas Gerais;2008;8471;2024,7;South East
+Minas Gerais;2009;3110;2151,5;South East
+Minas Gerais;2010;12166;1700,5;South East
+Minas Gerais;2011;11683;2026,2;South East
+Minas Gerais;2012;6091;1335,5;South East
+Minas Gerais;2013;5308;1573;South East
+Minas Gerais;2014;12381;944,1;South East
+Minas Gerais;2015;10625;1245,2;South East
+Minas Gerais;2016;6707;1373,3;South East
+Minas Gerais;2017;11473;829,2;South East
+Pará;1998;20282;2932,5;North
+Pará;1999;20479;2680,2;North
+Pará;2000;18207;3352,1;North
+Pará;2001;28587;3304,2;North
+Pará;2002;38804;2856;North
+Pará;2003;32100;2769,4;North
+Pará;2004;47823;2940,2;North
+Pará;2005;40226;3528,5;North
+Pará;2006;27368;3663,8;North
+Pará;2007;18655;3286,2;North
+Pará;2008;21684;3339,6;North
+Pará;2009;29806;3463,6;North
+Pará;2010;12126;3065,3;North
+Pará;2011;17687;3592,2;North
+Pará;2012;20045;3563;North
+Pará;2013;17182;3775,6;North
+Pará;2014;35948;3598,4;North
+Pará;2015;38592;3445,2;North
+Pará;2016;26110;3416,4;North
+Pará;2017;59771;3320,5;North
+Paraiba;1998;816;1270,1;North East
+Paraiba;1999;3437;1017,3;North East
+Paraiba;2000;2804;2439,9;North East
+Paraiba;2001;2073;1178,5;North East
+Paraiba;2002;4910;2003,1;North East
+Paraiba;2003;8361;2108,4;North East
+Paraiba;2004;3995;2229,6;North East
+Paraiba;2005;3427;1940,7;North East
+Paraiba;2006;3308;1178,3;North East
+Paraiba;2007;2665;2003,9;North East
+Paraiba;2008;1689;2254,5;North East
+Paraiba;2009;2963;2544,5;North East
+Paraiba;2010;2711;1321;North East
+Paraiba;2011;3280;2414;North East
+Paraiba;2012;2285;1668,6;North East
+Paraiba;2013;2225;2174,7;North East
+Paraiba;2014;2742;1508,1;North East
+Paraiba;2015;2773;1559,3;North East
+Paraiba;2016;3748;1569,2;North East
+Paraiba;2017;4757;2044,4;North East
+Pernambuco;1998;767;1249,7;North East
+Pernambuco;1999;463;1483,9;North East
+Pernambuco;2000;691;3359;North East
+Pernambuco;2001;1080;1986,3;North East
+Pernambuco;2002;1909;2487,6;North East
+Pernambuco;2003;2431;2169,8;North East
+Pernambuco;2004;1683;2532,7;North East
+Pernambuco;2005;1520;2316,2;North East
+Pernambuco;2006;1268;1982,3;North East
+Pernambuco;2007;1631;2173,2;North East
+Pernambuco;2008;1189;2439,3;North East
+Pernambuco;2009;1569;2573,5;North East
+Pernambuco;2010;1660;1933,4;North East
+Pernambuco;2011;1589;3245,7;North East
+Pernambuco;2012;1089;1604;North East
+Pernambuco;2013;729;2450,2;North East
+Pernambuco;2014;660;2379,7;North East
+Pernambuco;2015;1082;1913,2;North East
+Pernambuco;2016;966;1707,6;North East
+Pernambuco;2017;522;2149,7;North East
+Piaui;1998;6066;1046,4;North East
+Piaui;1999;3452;1308,9;North East
+Piaui;2000;4765;1347,8;North East
+Piaui;2001;9482;350,3;North East
+Piaui;2002;7901;982,7;North East
+Piaui;2003;8936;1013,1;North East
+Piaui;2004;9376;1529,1;North East
+Piaui;2005;10201;1251,5;North East
+Piaui;2006;5416;1378,9;North East
+Piaui;2007;12664;1413;North East
+Piaui;2008;2920;1723,7;North East
+Piaui;2009;5811;2028;North East
+Piaui;2010;17455;1036,3;North East
+Piaui;2011;10515;1590,6;North East
+Piaui;2012;14604;977,2;North East
+Piaui;2013;6555;1252;North East
+Piaui;2014;9584;1361,7;North East
+Piaui;2015;14730;773,2;North East
+Piaui;2016;8385;324;North East
+Piaui;2017;9478;240,2;North East
+Rio;2001;857;1670,2;South East
+Rio;2002;2945;697,2;South East
+Rio;2003;4856;1408,8;South East
+Rio;2004;3437;1073,6;South East
+Rio;2005;2297;1418,1;South East
+Rio;2006;2501;1111,7;South East
+Rio;2007;2067;904,8;South East
+Rio;2008;1217;1208;South East
+Rio;2009;2778;1386,9;South East
+Rio;2010;2437;1683,1;South East
+Rio;2011;2567;888,5;South East
+Rio;2012;2219;941,7;South East
+Rio;2013;1617;1341,2;South East
+Rio;2014;3924;585;South East
+Rio;2015;2553;835,4;South East
+Rio;2016;4539;1027,5;South East
+Rio;2017;4271;190,5;South East
+Rondonia;1998;6917;1655;North
+Rondonia;1999;7124;1105;North
+Rondonia;2000;5498;2246,1;North
+Rondonia;2001;5059;1266,6;North
+Rondonia;2002;15524;2018,1;North
+Rondonia;2003;6408;1463,8;North
+Rondonia;2004;12116;2447;North
+Rondonia;2005;24858;1988,4;North
+Rondonia;2006;4938;1536,2;North
+Rondonia;2007;14023;1761,7;North
+Rondonia;2008;6710;2485,1;North
+Rondonia;2009;4096;2340,4;North
+Rondonia;2010;11873;1183,4;North
+Rondonia;2011;4541;2188,5;North
+Rondonia;2012;6421;1241,2;North
+Rondonia;2013;3662;1877,1;North
+Rondonia;2014;4804;1756;North
+Rondonia;2015;14410;1414,2;North
+Rondonia;2016;11724;1165,4;North
+Rondonia;2017;10614;1607,7;North
+Roraima;1998;21;2187,5;North
+Roraima;1999;220;2051,1;North
+Roraima;2000;362;1933,5;North
+Roraima;2001;2416;1325,3;North
+Roraima;2002;2224;1615,5;North
+Roraima;2003;2919;1606;North
+Roraima;2004;1457;1860,7;North
+Roraima;2005;860;2140,8;North
+Roraima;2006;1245;2492,7;North
+Roraima;2007;1863;2112,7;North
+Roraima;2008;1131;2063,7;North
+Roraima;2009;1687;1226,1;North
+Roraima;2010;1442;2023,8;North
+Roraima;2011;1082;2238,8;North
+Roraima;2012;1001;1559,9;North
+Roraima;2013;994;1850,7;North
+Roraima;2014;1868;1268,2;North
+Roraima;2015;2062;1312,7;North
+Roraima;2016;3499;1697,2;North
+Roraima;2017;1101;1394,7;North
+Santa Catarina;1998;59;1901,1;South
+Santa Catarina;1999;364;1651;South
+Santa Catarina;2001;200;518,2;South
+Santa Catarina;2002;1715;1578,8;South
+Santa Catarina;2003;4458;1142,5;South
+Santa Catarina;2004;2955;1968,4;South
+Santa Catarina;2005;1483;1910,3;South
+Santa Catarina;2006;1855;1141,6;South
+Santa Catarina;2007;1230;1424,2;South
+Santa Catarina;2008;547;2888,9;South
+Santa Catarina;2009;1330;1804,3;South
+Santa Catarina;2010;974;2040,8;South
+Santa Catarina;2011;926;2260,1;South
+Santa Catarina;2012;1000;1461,6;South
+Santa Catarina;2013;1046;1668,7;South
+Santa Catarina;2014;1138;1602,3;South
+Santa Catarina;2015;923;2291,5;South
+Santa Catarina;2016;2346;1761;South
+Santa Catarina;2017;2354;1522,3;South
+Sao Paulo;1998;3196;1730,4;South East
+Sao Paulo;1999;5459;1376,9;South East
+Sao Paulo;2000;4128;1460,5;South East
+Sao Paulo;2001;2926;1455,1;South East
+Sao Paulo;2002;3539;1642,4;South East
+Sao Paulo;2003;3306;1092,4;South East
+Sao Paulo;2004;2864;1644,4;South East
+Sao Paulo;2005;2123;1729,6;South East
+Sao Paulo;2006;2209;2009,3;South East
+Sao Paulo;2007;1877;1623,4;South East
+Sao Paulo;2008;1193;1659,8;South East
+Sao Paulo;2009;1165;2017,3;South East
+Sao Paulo;2010;5194;1885,8;South East
+Sao Paulo;2011;3573;1700,1;South East
+Sao Paulo;2012;2159;1932,7;South East
+Sao Paulo;2013;2055;1391,3;South East
+Sao Paulo;2014;4717;1253,3;South East
+Sao Paulo;2015;1984;1896,8;South East
+Sao Paulo;2016;3235;1569,8;South East
+Sao Paulo;2017;5406;1522,7;South East
+Sergipe;1998;20;1155,9;North East
+Sergipe;1999;93;1518,8;North East
+Sergipe;2000;17;1561,9;North East
+Sergipe;2001;24;1478,8;North East
+Sergipe;2002;208;1033,5;North East
+Sergipe;2003;403;1233,5;North East
+Sergipe;2004;190;1142,5;North East
+Sergipe;2005;200;1078,9;North East
+Sergipe;2006;147;1443,5;North East
+Sergipe;2007;124;1177,2;North East
+Sergipe;2008;243;1364,1;North East
+Sergipe;2009;206;1308,7;North East
+Sergipe;2010;143;1233,4;North East
+Sergipe;2011;173;1304,7;North East
+Sergipe;2012;231;741,6;North East
+Sergipe;2013;185;880,7;North East
+Sergipe;2014;104;869,9;North East
+Sergipe;2015;299;952,3;North East
+Sergipe;2016;152;735;North East
+Sergipe;2017;75;1179,6;North East
+Tocantins;1998;11536;1481,2;Center West
+Tocantins;1999;6679;2280,6;Center West
+Tocantins;2000;6542;2206;Center West
+Tocantins;2001;9113;2171,5;Center West
+Tocantins;2002;11787;1696,8;Center West
+Tocantins;2003;8890;2043,7;Center West
+Tocantins;2004;12202;1895,2;Center West
+Tocantins;2005;10701;1791,7;Center West
+Tocantins;2006;6429;2149,3;Center West
+Tocantins;2007;15974;1743,7;Center West
+Tocantins;2008;4676;1710,3;Center West
+Tocantins;2009;5749;1921,3;Center West
+Tocantins;2010;25069;1805,6;Center West
+Tocantins;2011;10387;2005,7;Center West
+Tocantins;2012;3752;1497,9;Center West
+Tocantins;2013;7946;1849,3;Center West
+Tocantins;2014;7396;1843,9;Center West
+Tocantins;2015;8203;1393,7;Center West
+Tocantins;2016;14854;1270,5;Center West
+Tocantins;2017;20997;1320,7;Center West

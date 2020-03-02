@@ -1,0 +1,40 @@
+---
+title: "Rain vs. Rainforest burn"
+author: "Luiz Bergo"
+date: "21/02/2020"
+output: ioslides_presentation
+always_allow_html: yes
+---
+
+## What is Plotly?
+
+Plotly is a web application for creating and sharing data visualizations. Plotly
+can work with several programming languages and applications including R,
+Python, and Microsoft Excel. We're going to concentrate on creating different
+graphs with Plotly and sharing those graphs.
+
+## Installing Plotly
+
+Installing Plotly is easy:
+
+```r
+install.packages("plotly")
+library(plotly)
+```
+
+If you want to share your visualizations on https://plot.ly/ you should make an
+account on their site.
+
+## Basic Scatterplot
+
+A basic scatterplot is easy to make, with the added benefit of tooltips that
+appear when your mouse hovers over each point. Specify a scatterplot by
+indicating `type = "scatter"`. Notice that the arguments for the `x` and `y` 
+variables as specified as formulas, with the tilde operator (`~`) preceding the
+variable that you're plotting.
+
+
+```{r, eval=FALSE}
+library(plotly)
+plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter", mode="markers")
+```

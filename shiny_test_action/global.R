@@ -1,0 +1,1 @@
+#stock_flour <<- 0.0

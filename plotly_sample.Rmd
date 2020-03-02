@@ -1,0 +1,119 @@
+---
+title: "Rain Precipitation and rainforest burn in Brazil"
+author: "Luiz Bergo"
+date: "20/02/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Introduction
+
+Recently Brazil suffered with a large number of rainforest burns, that shed light on environmental issues main of that regarding the use of rainforest spaces to accomodate cattle pasture.  
+
+A common process of turn forests in pasture is by means of controlled fire. Environmentalist advise about the problem that pratice may cause to the overall environment, with attention to the most precious resource of the world, water.  
+
+The data used in this study are gently offered by Kaggle team at:  
+
+<https://www.kaggle.com/fabiopotsch/precipitation-in-brazil>   <https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil>
+
+
+### Rain vs. Rain forest burn
+
+This graphic depict the total rain at some states where most of rainforest burn are detected.
+
+```{r rain_total, echo = TRUE}
+library(plotly)
+library(dplyr)
+
+df_trb <- read.csv2("total_rain_burn.csv")
+
+with(df_trb,
+  plot_ly(x = year, y = sum_preciptation  , mode = "markers" , color = "blue") %>%
+   layout(
+    title = 'Rainfall at burn area from 1.998 to 2.017',
+    xaxis = list(
+      title = 'Year'
+    ),
+    yaxis = list(
+      range = c(0, 50000),
+      title = 'Annual Precipitation'
+    )
+  )
+)
+
+
+```
+
+This graphic depict the total rainforest burn at some states with more occurence.
+
+
+```{r burn_total, echo = TRUE}
+library(plotly)
+library(dplyr)
+
+with(df_trb,
+  plot_ly(x = year, y = sum_burn  , mode = "markers" , color = "red") %>%
+   layout(
+    title = 'Rainforest burn at burn area from 1.998 to 2.017',
+    xaxis = list(
+      title = 'Year'
+    ),
+    yaxis = list(
+      range = c(0, 245000),
+      title = 'Annual number of rainforest burn'
+    )
+  )
+)
+
+
+```
+
+Both of data indicates a seasonal behavior, although is the past few years there is a clearly trend in both of them showing increasing in forest burn an decreasing in rainfall levels.  
+
+One question that is commomly raised is if the absence of rain causes the rainforest burns, observing the picture below this is not clearly related, indicating the need to investigate in depth the contribution for this problem.
+
+
+
+```{r burn_rain, echo = TRUE}
+library(plotly)
+library(dplyr)
+
+with(df_trb,
+  plot_ly(x = sum_preciptation, y = sum_burn  , mode = "markers" , color = "green") %>%
+   layout(
+    title = 'Precipitation vs. Rainforest burn from 1.998 to 2.017',
+    xaxis = list(
+      title = 'Rainfall'
+    ),
+    yaxis = list(
+      range = c(0, 245000),
+      title = 'Annual number of rainforest burn'
+    )
+  )
+)
+
+
+```
+
+## Conclusion
+
+```{r pressure}
+
+plot_ly(df, x = df$year, y = df$burn , mode = "markers" , color = as.factor(df$region))
+
+plot_ly(df, x = df$year, y = df$precipitation , mode = "markers" , color = as.factor(df$region))
+
+plot_ly(df, x = df$precipitation, z = df$burn , y = df$year, type = "scatter3d", mode = "markers" , color = as.factor(df$region)) %>%
+   layout(
+    title = "Forest burn x Cumulative Rainfall",
+    scene = list(
+      xaxis = list(title = "Precipitation (mm)"),
+      zaxis = list(title = "Number of forest burns"),
+      yaxis = list(title = "Year")
+    ))
+
+```
+
