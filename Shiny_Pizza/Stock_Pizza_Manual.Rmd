@@ -1,0 +1,50 @@
+---
+title: "Stock Pizza"
+author: "Luiz Bergo"
+date: "01/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome to Shiny Stock Pizza
+
+The purpose of this app in fact is to pratice and explore the capabilities of Shiny App, to do that we proposed something that is delicious for most of the people that is *PIZZA*! The main idea of this very simple app is provide a sort of control on IN and OUT of goods. Are there anything more frustating than don´t have enough ingredients for that *Mamma* receipt?  
+The result can be observed at this site <https://bergojr.shinyapps.io/Shiny_Pizza/>.
+
+## Areas of app
+
+This app is organized in three main area: *Receiving goods*, *Ordered Pizzas* and *Stock available*.
+
+### Side panel - Receiving goods
+
+At the side bar is the *Receiving Goods* area, you can do it with by three manners:
+
+1. Input the exactly amount for each fiedl will be added to the stock (accept negative numbers). Once you shure of the amounts, click on *"Confirm values!"* button. 
+
+1. Hit de button *"+10!"* wil increase in 10 units each goods.
+
+1. Hit the *"Fill Stock"* button will increase at the top of your stock capacity, in this app, 500.
+
+1. Hit he *"Clear Stock"* wipe out the numbers and the goods are lead to 0.
+
+
+IMPORTANT NOTE : by design restricition the stock never shows negative values or values more tham 500. If values may lead to such situation, the values will be turned to 0 or 500.
+
+### Main panel - Ordered Pizzas
+
+At this part of app you can simulate ordering pizza, just select how many (at this point there is only one size option) pizzas you want to order and click the corresponding button. If there is enough ingredients, they will be subtracted from stock, if it´s not enough ingredients not happens (I hope!).
+
+Right now the secret of making delicious pizza must be kept in secret, so the receipt is not available :-)
+
+Now the truth, since it is my first app and the time is short, I have to simplify as much to bring something observable, at the minimum.
+
+### Main panel - Stock Available
+
+This is a simply graphic representation of the stock indicating the level of each good at the moment.
+
+### Thank you
+
+I hope I was clear enough and the concepts and usage are very simple. I appreciate the opportunity to show this first app. 

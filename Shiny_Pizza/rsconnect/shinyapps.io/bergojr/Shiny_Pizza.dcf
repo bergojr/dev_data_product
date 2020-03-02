@@ -1,0 +1,13 @@
+name: Shiny_Pizza
+title: Shiny_Pizza
+username:
+account: bergojr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1886631
+bundleId: 2842544
+url: https://bergojr.shinyapps.io/Shiny_Pizza/
+when: 1583115683.71603
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Stock_Pizza_Manual.Rmd
